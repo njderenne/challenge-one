@@ -34,10 +34,6 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -71,12 +67,6 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -92,10 +82,6 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-}
-
 .benefits article h3 {
     text-align: center;
     margin-bottom: 10px;
@@ -105,6 +91,12 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .content article {
