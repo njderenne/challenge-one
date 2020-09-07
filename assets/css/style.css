@@ -1,15 +1,16 @@
+/*removes default layout parameters*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     
 }
-
+/*sets the background color and font for the page*/
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/*sets up the header to be displayed correctly*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,7 +26,7 @@ header h1 {
 header h1 span {
     color: #d9dcd6;
 }
-
+/*works on visualization of the nav bar*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,7 +39,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*removes underline for links*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -47,7 +48,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*adds a background image to the hero*/
 .hero {
     height: 800px;
     width: 100%;
@@ -66,7 +67,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*works on the overall benefits section with additions for the article, title, and image*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -92,7 +93,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*works on the overall content section with additions for the article, title, and image*/
 .content {
     width: 75%;
     display: inline-block;
@@ -115,7 +116,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*sets the visualization for the footer*/
 footer {
     padding: 30px;
     clear: both;
